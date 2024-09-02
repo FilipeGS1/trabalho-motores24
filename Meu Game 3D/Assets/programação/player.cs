@@ -10,6 +10,7 @@ public class player : MonoBehaviour
     public int forcaPulo = 10;
     public Rigidbody rb;
     public bool noChao = false;
+
     void Start()
     {
         TryGetComponent(out rb);
